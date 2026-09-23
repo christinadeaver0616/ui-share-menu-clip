@@ -71,6 +71,7 @@ function App() {
 
         <section className="panel">
           <div className="panel-banner">
+            <span className="banner-glow" aria-hidden="true" />
             <span className="banner-kicker">Workspace files</span>
             <strong>Share in one click</strong>
           </div>

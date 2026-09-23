@@ -70,6 +70,11 @@ function App() {
         </header>
 
         <section className="panel">
+          <div className="panel-banner">
+            <span className="banner-kicker">Workspace files</span>
+            <strong>Share in one click</strong>
+          </div>
+
           <div className="panel-head">
             <h2>Recent files</h2>
             <p>Share a file with your team from the row actions.</p>

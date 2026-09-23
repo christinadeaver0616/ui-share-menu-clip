@@ -108,8 +108,25 @@
   border: 1px solid #e5e7eb;
   border-radius: 16px;
   padding: 24px;
-  /* Intentional bug: keeps the panel corners clean but clips the share menu */
   overflow: hidden;
+}
+
+.panel-banner {
+  margin: -24px -24px 20px;
+  padding: 18px 24px;
+  background: linear-gradient(135deg, #1d4ed8, #38bdf8);
+  color: #fff;
+}
+
+.banner-kicker {
+  display: block;
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+.panel-banner strong {
+  font-size: 16px;
 }
 
 .panel-head h2 {

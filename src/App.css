@@ -1,0 +1,154 @@
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 28px 20px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.nav-link {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background: #1e293b;
+  color: #fff;
+}
+
+.main {
+  flex: 1;
+  padding: 32px 40px 48px;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.ghost-btn,
+.share-btn {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.share-btn {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.filter-wrap {
+  position: relative;
+}
+
+.filter-menu,
+.share-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 180px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
+  padding: 8px;
+  z-index: 20;
+}
+
+.menu-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  color: #111827;
+}
+
+.menu-item:hover {
+  background: #f3f4f6;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  /* Intentional bug: keeps the panel corners clean but clips the share menu */
+  overflow: hidden;
+}
+
+.panel-head h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.panel-head p {
+  margin: 0 0 20px;
+  color: #6b7280;
+}
+
+.table-wrap {
+  width: 100%;
+}
+
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-table th,
+.file-table td {
+  text-align: left;
+  padding: 14px 12px;
+  border-bottom: 1px solid #eef2f7;
+  font-size: 14px;
+}
+
+.file-table th {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.file-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.action-cell {
+  position: relative;
+  display: inline-block;
+}
